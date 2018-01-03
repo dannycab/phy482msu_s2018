@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 482
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy482msu_s2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy482msu_s2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy482msu_s2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy482msu_s2018/reveal.js/css/print/pdf.css' : '/phy482msu_s2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy482msu_s2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/notes/intro-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+## Welcome to PHY 482
+
+### Electrodynamics
+
+Prof. Danny Caballero
+
+</section>
+
+<section data-markdown="">
+### Contacting Danny
+
+Office: 1310-A BPS
+
+Email: &lt;caballero@pa.msu.edu&gt;
+
+Cell phone: 517-420-5330 (texting is fine)
+
+</section>
+
+<section data-markdown="">
+### Important Sites
+
+* Course Webpage: [dannycab.github.io/phy482msu_s2018/](http://dannycab.github.io/phy482msu_s2018/)
+* Discussion Forum: [
+piazza.com/msu/spring2018/phy482](https://
+piazza.com/msu/spring2018/phy482) (*Check your email*)
+
+</section>
+
+<section data-markdown="">
+
+### Course Activities
+* Projects:
+  * 2 of them; Mar 2 &amp; Apr 30 - 20% each
+* In-Class Quizzes:
+  * 7 of them; Every other Friday; 1 dropped - 20%
+* Homework:
+  * 14 of them; Due on Mondays; 1 dropped - 40%
+* In-class Participation:
+  * Pure Extra Credit - up to 5% bonus
+
+[Much more detail on website](http://dannycab.github.io/phy482msu_s2018/)
+
+</section>
+
+<section data-markdown="">
+
+## This Week!!!
+
+* Homework 1 is already up (Due Fri. Jan. 19 at 5pm)
+* Read (seriously do this!)
+  * Griffiths Ch 7.1.1-7.1.2 (Review? Chs 1-6)
+* [Download Anaconda distribution of Python](https://www.continuum.io/downloads)
+
+**Stay up-to-date by checking website, calendar, and discussion forum regularly.**
+
+</section>
+
+<section data-markdown="">
+
+### Computational Homework problems
+
+* We will be using Python on homework problems this semester.
+* Installation instructions appear on the piazza site.
+* Homework solutions should take the form of a Jupyter notebook, which you can print to PDF and turn in.
+* If you get stuck somewhere, post on piazza, so your classmates benefit from your question.
+
+</section>
+
+<section data-markdown="">
+
+### Projects
+
+#### Individual Project (Mar. 2)
+* Literature review of some interesting topic in E&amp;M (3-4 pages)
+* Homework questions will support you on this
+  * See syllabus for sample questions
+* Paper should be typed, inline references, bibliography, etc.
+* Evaluation rubric will be ready in a couple of weeks
+
+</section>
+
+<section data-markdown="">
+
+### Projects
+
+#### Pair Project (Apr. 30)
+* Poster presentation of an original contribution (theory and computation)
+* Homework questions will support you on this
+  * See syllabus for sample questions
+* Can be something that has been done before that you just extend
+* Evaluation rubric will be ready in a few weeks
+* There will be a significant self-evaluation component to this also
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy482msu_s2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy482msu_s2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy482msu_s2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy482msu_s2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy482msu_s2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy482msu_s2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy482msu_s2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy482msu_s2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy482msu_s2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
