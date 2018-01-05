@@ -17,6 +17,11 @@ Videos for this week are just reminders of big ideas from 481
 * [Biot-Savart's Law](https://youtu.be/FPw-mqR1oIk)
 * [Ampere's Law](https://youtu.be/M72S8MgY5qk)
 
+#### Reading
+
+* Review Chapters 1-6 in Griffith's
+* Read Ch 7.1.1 and 7.1.2 for next week
+
 #### In-Class Activities
 
 * [Lightning Strike at SLAC](./in-class/01-lightningstrike.html)
