@@ -11,7 +11,7 @@ use_math: true
 
 Videos for this week are just reminders of big ideas from 481
 
-* [Coulumb's Law](https://youtu.be/_tlTbcFY9p8)
+* [Coulomb's Law](https://youtu.be/_tlTbcFY9p8)
 * [Gauss' Law](https://youtu.be/ZtFrjBRFEzU)
 * [Laplace's Equation](https://youtu.be/0o8hMuTllwk)
 * [Biot-Savart's Law](https://youtu.be/FPw-mqR1oIk)
