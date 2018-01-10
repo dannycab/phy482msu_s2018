@@ -5,6 +5,30 @@ permalink: calendar.html
 use_math: true
 ---
 
+---
+
+### Week 2 - Ohm's Law
+
+#### Pre-class Videos
+
+* Coming soon...
+
+#### Reading
+
+* Read Ch 7.1.1 and 7.1.2 for this week
+* Read [this paper on limitations of Ohm's Law](./papers/2009_Madsen_OhmLimitations.pdf)
+* Read Ch 7.2.1. and 7.2.2 for next week
+
+### In-Class Activities
+* [What is steady state?](./02-steadystate.html)
+* [Do we really understand steady state?](./02-steadystatespherical.html)
+
+#### Slides and Homework
+
+* Coming soon...
+
+---
+
 ### Week 1 - Review of Electrostatics and Magnetostatics
 
 #### Pre-class Videos
