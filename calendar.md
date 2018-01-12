@@ -11,7 +11,9 @@ use_math: true
 
 #### Pre-class Videos
 
-* Coming soon...
+* [Ohm's Law](https://youtu.be/nu23mVB_sxQ)
+* [Comments on Ohm's Law](https://youtu.be/o4HUnXIed2c)
+* [Example: Resistance](https://youtu.be/xpQFCJzwpRE)
 
 #### Reading
 
