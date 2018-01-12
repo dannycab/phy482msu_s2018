@@ -27,7 +27,7 @@ use_math: true
 
 #### Slides and Homework
 
-* Coming soon...
+* [Current and Ohm's Law - Handwritten](./handwritten-notes/01-Current_and_Ohms_Law.pdf)
 
 ---
 
