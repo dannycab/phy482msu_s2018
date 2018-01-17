@@ -22,8 +22,8 @@ use_math: true
 * Read Ch 7.2.1. and 7.2.2 for next week
 
 ### In-Class Activities
-* [What is steady state?](./02-steadystate.html)
-* [Do we really understand steady state?](./02-steadystatespherical.html)
+* [What is steady state?](./in-class/02-steadystate.html)
+* [Do we really understand steady state?](./in-class/02-steadystatespherical.html)
 
 #### Slides and Homework
 
