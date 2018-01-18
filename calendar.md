@@ -7,7 +7,7 @@ use_math: true
 
 ---
 
-### Week 3 - Induction and Faraday's law
+### Week 3 - Electromotive Force and Induction
 
 #### Pre-class Videos
 
@@ -21,7 +21,8 @@ Coming soon...
 
 ### In-Class Activities
 
-Coming soon...
+* [Magnetic braking](./in-class/03-magneticbrake.html)
+* [Motional EMF and energy conservation](./in-class/03-motional_emf.html)
 
 #### Slides and Homework
 
