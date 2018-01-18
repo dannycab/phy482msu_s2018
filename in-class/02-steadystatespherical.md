@@ -1,5 +1,5 @@
 ---
-layout: homework
+layout: page
 use_math: true
 title: Do we really understand steady state?
 ---

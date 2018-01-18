@@ -7,6 +7,31 @@ use_math: true
 
 ---
 
+### Week 3 - Induction and Faraday's law
+
+#### Pre-class Videos
+
+Coming soon...
+
+#### Reading
+
+* Read Ch 7.2.1. and 7.2.2 for this week
+* Read [this paper on magnetic fields and work](./papers/1974_Mosca_Bfield_work.pdf)
+* Read Ch 7.2.3 for next week
+
+### In-Class Activities
+
+Coming soon...
+
+#### Slides and Homework
+
+* [Electromotive Force - Handwritten](./handwritten-notes/02-EMF.pdf)
+* [Motional EMF - Handwritten](./handwritten-notes/03-Motional_EMF.pdf)
+* [Week 2 Homework (Due Fri. Jan. 26)](./assignments/homework2.html)
+
+
+---
+
 ### Week 2 - Ohm's Law
 
 #### Pre-class Videos
@@ -19,7 +44,7 @@ use_math: true
 
 * Read Ch 7.1.1 and 7.1.2 for this week
 * Read [this paper on limitations of Ohm's Law](./papers/2009_Madsen_OhmLimitations.pdf)
-* Read Ch 7.2.1. and 7.2.2 for next week
+* Read Ch 7.2.1 and 7.2.2 for next week
 
 ### In-Class Activities
 * [What is steady state?](./in-class/02-steadystate.html)
