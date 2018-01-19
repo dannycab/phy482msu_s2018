@@ -11,7 +11,10 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon...
+* [What is the Electromotive Force?](https://youtu.be/3jUFBmDmjZ8)
+* [Calculating EMF: Simple Circuit](https://youtu.be/iDx9uhvqzgU)
+* [Motional EMF](https://youtu.be/YurhidOBjd4)
+* [Motional EMF and Magnetic Flux](https://youtu.be/EwvbdxxEs-8)
 
 #### Reading
 
