@@ -63,7 +63,7 @@ Resistors can take a number of forms, consider one constructed from two concentr
 
 ## 6. Investigating the Electric Field in a Wire
 
-This problem includes a Jupyter notebook that will compute the electric field of a charged ring along its central axis. Your job is to modify this code to investigate the profile of the electric field inside a wire. Recall that the excess charge on the surface of the wire generates the electric field that moves charges in the wire. This charge distribution is gradated (i.e., it slowly changes sign as you move from the anode to cathode).
+This problem includes [a Jupyter notebook](./code/efield-charged-ring-axis.ipynb) that will compute the electric field of a charged ring along its central axis. Your job is to modify this code to investigate the profile of the electric field inside a wire. Recall that the excess charge on the surface of the wire generates the electric field that moves charges in the wire. This charge distribution is gradated (i.e., it slowly changes sign as you move from the anode to cathode).
 
 To do this investigation, you will need to perform two tasks:
 
