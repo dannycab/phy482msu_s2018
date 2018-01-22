@@ -69,7 +69,7 @@ and effort to carefully read and follow the text. The
 
 ### Homework
 
-There will be a homework due every Monday at the start of class. Late homework can't be accepted once solutions are posted - but, your lowest score will be dropped. Homework is exceedingly important for developing an understanding of the course material, not to mention building skills in complex physical and mathematical problem solving. They will require considerable time and personal effort this term! *Your lowest homework grade will be dropped.*
+There will be a homework due every Friday by 5pm. Late homework can't be accepted once solutions are posted - but, your lowest score will be dropped. Homework is exceedingly important for developing an understanding of the course material, not to mention building skills in complex physical and mathematical problem solving. They will require considerable time and personal effort this term! *Your lowest homework grade will be dropped.*
 
 There are four kinds of homework problems in this class:
 
