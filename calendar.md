@@ -7,6 +7,30 @@ use_math: true
 
 ---
 
+### Week 4 - Faraday's Law
+
+#### Pre-class Videos
+
+Coming soon...
+
+#### Reading
+
+* Read Ch 7.2.3 for this week
+* Read [this paper on quantitative experiments on Faraday's Law](./papers/1986_Nicklin_FL_QuantExp.pdf)
+* Read Ch 7.3.1-7.3.3 for next week
+
+### In-Class Activities
+
+Coming soon...
+
+#### Notes and Homework
+
+* [Introduction to Faraday's Law - Handwritten](./handwritten-notes/04-Introduction_to_Faradays_Law.pdf)
+* [Faraday's Law with Examples - Handwritten](./handwritten-notes/05-Faradays_Law_w_Example.pdf)
+* [Homework 3 (Due Fri. Feb. 2)](./assignments/homework3.html)
+
+---
+
 ### Week 3 - Electromotive Force and Induction
 
 #### Pre-class Videos
@@ -27,11 +51,11 @@ use_math: true
 * [Magnetic braking](./in-class/03-magneticbrake.html)
 * [Motional EMF and energy conservation](./in-class/03-motional_emf.html)
 
-#### Slides and Homework
+#### Notes and Homework
 
 * [Electromotive Force - Handwritten](./handwritten-notes/02-EMF.pdf)
 * [Motional EMF - Handwritten](./handwritten-notes/03-Motional_EMF.pdf)
-* [Week 2 Homework (Due Fri. Jan. 26)](./assignments/homework2.html)
+* [Homework 2 (Due Fri. Jan. 26)](./assignments/homework2.html)
 
 
 ---
@@ -54,7 +78,7 @@ use_math: true
 * [What is steady state?](./in-class/02-steadystate.html)
 * [Do we really understand steady state?](./in-class/02-steadystatespherical.html)
 
-#### Slides and Homework
+#### Notes and Homework
 
 * [Current and Ohm's Law - Handwritten](./handwritten-notes/01-Current_and_Ohms_Law.pdf)
 
@@ -82,7 +106,7 @@ Videos for this week are just reminders of big ideas from 481
 * [Lightning Strike at SLAC](./in-class/01-lightningstrike.html)
 * [Building a Magnetic Trap](./in-class/01-magnetictrap.html)
 
-#### Slides and Homework
-* [Introduction Slides](./notes/intro-slides.html)
+#### Notes and Homework
+* [Introduction Notes](./notes/intro-slides.html)
 * [Week 1 Conceptual Questions](./notes/week1-slides.html)
-* [Week 1 Homework (Due Fri. Jan. 19)](./assignments/homework1.html)
+* [Homework 1 (Due Fri. Jan. 19)](./assignments/homework1.html)
