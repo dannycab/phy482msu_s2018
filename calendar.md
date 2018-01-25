@@ -21,7 +21,8 @@ Coming soon...
 
 ### In-Class Activities
 
-Coming soon...
+* [Magnetic Rotation Demo](./in-class/04-rotatingphysicsdemo.html)
+* [Charging a toothbrush](./in-class/04-chargingtoothbrush.html)
 
 #### Notes and Homework
 

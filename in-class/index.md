@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 4 (Faraday's Law)
+* [Magnetic Rotation Demo](./04-rotatingphysicsdemo.html)
+* [Charging a toothbrush](./04-chargingtoothbrush.html)
+
+
 ### Week 3 (Electromotive Force)
 
 * [Magnetic braking](./03-magneticbrake.html)
