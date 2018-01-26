@@ -11,7 +11,9 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon...
+* [Introduction to Faraday's Law](https://youtu.be/Kv1ozKa9iLc)
+* [Deriving Faraday's Law](https://youtu.be/Lp2dibKm01I)
+* [Faraday's Law Example](https://youtu.be/64w1fH7RHDE)
 
 #### Reading
 
