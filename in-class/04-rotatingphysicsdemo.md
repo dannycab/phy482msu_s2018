@@ -4,7 +4,7 @@ use_math: true
 title: Magnetic Rotation Demo
 ---
 
-You are desinging a demo that is meant to illustrate Faraday's Law. It consists of a disk with a known mass and radius ($M,R$) that has a total charge $Q$ stuck uniformly to the edge of it. The disk is the same radius as a long solenoid positioned just below it ($n$ rotations per length). The solenoid is connected to a current supply that provides a very slowly oscillating current (at a frequency of $\omega_0 \ll ct$).
+You are designing a demo that is meant to illustrate Faraday's Law. It consists of a disk with a known mass and radius ($M,R$) that has a total charge $Q$ stuck uniformly to the edge of it. The disk is the same radius as a long solenoid positioned just below it ($n$ rotations per length). The solenoid is connected to a current supply that provides a very slowly oscillating current (at a frequency of $\omega_0 \ll ct$).
 
 Find the response of the disk, i.e., how it rotates.
 
