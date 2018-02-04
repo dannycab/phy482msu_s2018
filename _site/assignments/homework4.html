@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>In-Class</title>
+  <title>Homework 4 (Due. Feb 9)</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/assignments/homework4.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -436,59 +436,75 @@
 </header>-->
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="container well">
+      <div class="container well">
 
-  <header class="post-header">
-    <h1 class="post-title">In-Class</h1>
-  </header>
+        <h1 class="post-title">Homework 4 (Due. Feb 9)</h1>
+          <div >
+    <p><strong>There are fewer homework problems and no computational problem this week, so you can focus on the project problem (Problem 5 below). It is very important to work on the project problem this week because it starts you on the process of writing your paper. The project problem will take you longer than it has in the past, so start early!</strong></p>
 
-  <div class="post-content">
-    <h3 id="week-4-faradays-law">Week 4 (Faraday’s Law)</h3>
+<h1 id="1-time-varying-magnetic-field">1. Time varying magnetic field</h1>
+
+<p>A conducting disk with radius $a$, height $h \ll a$, and conductivity $\sigma$ is immersed in a time varying but spatially uniform magnetic field parallel to its axis:</p>
+
+<script type="math/tex; mode=display">\mathbf{B} = B_0 \sin(\omega t)\hat{\mathbf{z}}</script>
+
+<ol>
+  <li>Ignoring the effects of any induced magnetic fields, find the induced electric field $\mathbf{E}(\mathbf{r},t)$ and current density $\mathbf{J}(\mathbf{r},t)$ in the disk. Sketch the current distribution.</li>
+  <li>Compare $\mathbf{E}(\mathbf{r},t)$ to the electric field in presented in <a href="./homework2.html">problem 1 on Homework 2</a> when $\omega t \ll 1$.</li>
+</ol>
+
+<h1 id="2-conducting-tethers-in-space">2. Conducting “tethers” in space</h1>
+
+<p>Tethers can use the velocity of a spacecraft through the Earth’s magnetic field to generate electrical power. Alternatively, electrical currents pushed through the tether might be used to change the spacecraft velocity for either propulsion or for braking and reentry. Several ‘space tether’ experiments have been flown, to investigate the possible use if Faraday’s law for power generation and/or propulsion. Examples are the 1996 joint US/Italy effort to deploy a 20 km tether from one of the space shuttles to generate power, or the European Space Agency’s Young Engineers Satellites (YES2) experiment that deployed a 31 km tether as a means of reentry for a small payload dropped from a Russian Foton spacecraft.</p>
+
+<ol>
+  <li>What is a typical low-Earth orbital velocity? To be definite, assume an orbit 200 miles above the surface of the Earth. Assuming that you increase the velocity, do you go to a higher or lower orbital altitude?</li>
+  <li>The Earth has a magnetic field that is approximately described by an ideal magnetic dipole. This field apparently arises from circulating charge currents within the convective parts of the Earth’s mantle. These flows are directly related to the flows causing plate tectonics. Fascinating stuff… OK, so look up a typical size of the Earth’s magnetic field at some location on the Earth’s surface, use it along with the dipole field model to estimate the Earth’s magnetic dipole moment magnitude, m. Using some information about the size of the Earth’s core, mantle, etc. Estimate the electric current that must be flowing to produce this magnetic moment.</li>
+  <li>Now combine the typical orbital velocity and the typical magnetic field magnitude and direction to calculate the motional EMF that could be generated along a 20 km conductive cable. Assuming the orbit is around the magnetic equator, in which direction relative to the orbital velocity direction would you deploy the cable to create the largest EMF?</li>
+  <li>Lovely, so now you have a cable stretched out and it has some EMF generated along its length. However, to generate useful POWER, the product of current and voltage, you need to have a closed circuit to allow current to flow. Perhaps you could stretch a second cable out from your spacecraft to touch the first cable and to complete the circuit? Explain why that’s not going to work.</li>
+  <li>In fact, the circuit is completed by the ionized plasma that surrounds the Earth, the so-called ionosphere. In the shuttle tether, there was an insulating, roughly 1cm diameter nylon cable surrounded by conductive copper braid of 3 mm thickness, all wrapped in an insulating Kevlar layer. Data taken during the experiment suggested that the ionosphere was ‘somewhat less conductive’ than the copper braid. Make life simple by assuming that the ionosphere conducted in a cylindrical pipe 20 km long and with cross sectional area equal to the areal size of the space shuttle (roughly 200 square meters) estimate the plasma conductivity. What additional information would you need to know to estimate the density of charged particles in the plasma?</li>
+</ol>
+
+<h1 id="3-mutual-inductance">3. Mutual Inductance</h1>
+
+<p>We have an infinitely tall solenoid (radius $R$, $n$ coils per unit length). Wrapped around it is a single loop of wire (radius $r$, centered at the left edge of the solenoid, shown below).</p>
+
+<p><img src="/phy482msu_s2018/assignments/images/hw4/solenoid_and_loop.png" alt="solenoid" /></p>
+
+<ol>
+  <li>Find the mutual inductance $M$ between the loop and the solenoid.  Would it be bigger, smaller, or the same, if $r$ was twice as big?</li>
+  <li>Suppose now that the loop is doubled up, so (with the same radius $r$) it wraps around the solenoid twice. Again, find the mutual inductance $M$.</li>
+  <li>If the solenoid was not infinitely long, would the mutual inductance between the solenoid and the single loop get larger or smaller? Briefly (qualitatively only) why?</li>
+  <li>Find the self-inductance per unit length of the infinite solenoid, all by itself. Explicitly check that the units of your answer work out correctly.</li>
+</ol>
+
+<h1 id="4-more-mutual-inductance">4. More mutual inductance</h1>
+<p>Two circular loops of wire are arranged so that they lie in the same plane and are concentric.  One loop, of radius $a$, is TINY, much smaller than the other, which has radius $b$, i.e. $a«b$.</p>
+
+<ol>
+  <li>If the small loop is driven with a time varying current $I(t)$, derive an approximate formula for the induced EMF in the large loop. <em>State the approximations or assumptions you make in your derivation.</em></li>
+</ol>
+
+<h1 id="5-project-problem---building-your-paper-i">5. Project Problem - Building your paper I</h1>
+
+<p>Last week, you completed your summary of two more papers. At this point, you should have read and summarized at least 4 papers describing the phenomenon that you are interested in. You should have also developed a sense of what resources you need to further understand the phenomenon that you are investigating in this paper.</p>
+
+<p>To help you start building your paper, this homework problem asks you to summarize your background research so far. I am looking for about 4-5 paragraphs on what you have learned so far with references. Think about writing this as part of your eventual paper, so work to write something that is coherent and tells a complete story. Make sure you check it for spelling and grammar. This is your chance to make headway on the eventual project that you will turn in soon.</p>
+
+<p>In writing this think about:</p>
 <ul>
-  <li><a href="./04-rotatingphysicsdemo.html">Magnetic Rotation Demo</a></li>
-  <li><a href="./04-chargingtoothbrush.html">Charging a toothbrush</a></li>
+  <li>What are people saying about this phenomenon? Is there agreement about how it is explained?</li>
+  <li>What are the relevant models? How are the models described?</li>
+  <li>How do people investigate it theoretically? Experimentally? Computationally?</li>
+  <li>What are open questions surrounding the phenomenon?</li>
 </ul>
 
-<h3 id="week-3-electromotive-force">Week 3 (Electromotive Force)</h3>
-
-<ul>
-  <li><a href="./03-magneticbrake.html">Magnetic braking</a></li>
-  <li><a href="./03-motional_emf.html">Motional EMF and energy conservation</a></li>
-</ul>
-
-<h3 id="week-2-ohms-law">Week 2 (Ohm’s Law)</h3>
-<ul>
-  <li><a href="./02-steadystate.html">What is steady state?</a></li>
-  <li><a href="./02-steadystatespherical.html">Do we really understand steady state?</a></li>
-</ul>
-
-<h3 id="week-1-reminders-of-481">Week 1 (Reminders of 481)</h3>
-<ul>
-  <li><a href="./01-lightningstrike.html">Lightning Strike at SLAC</a></li>
-  <li><a href="./01-magnetictrap.html">Building a Magnetic Trap</a></li>
-</ul>
+<p><strong>You will turn this in using your GitHub repository.</strong></p>
 
   </div>
 
-</div>
 
       </div>
-    </div>
-
-    <footer class="footer">
-    <div class="container alert alert-info">
-        <div class="col-md-8">
-            <p>Website for Physics 482 - Electricity and Magnetism II at Michigan State University
-</p>
-        </div>
-        <div class="col-md-4">
-          Contact: <a href="mailto:caballero@pa.msu.edu">caballero@pa.msu.edu</a> <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
-
 
   </body>
 

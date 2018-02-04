@@ -7,6 +7,34 @@ use_math: true
 
 ---
 
+### Week 5 - Inductance and RLC Circuits
+
+*We are likely to continue RLC Circuits next week, so don't worry about taking your time with readings.*
+
+#### Pre-class Videos
+
+Coming soon
+
+#### Reading
+
+* Read my notes on RLC circuits for this week
+* Read [this paper on phasors](./papers/2015_Close_Phasors.pdf)
+* Read Ch 7.3.1-7.3.3 for next week
+
+### In-Class Activities
+
+Coming soon
+
+#### Notes and Homework
+
+* [Inductance](./handwritten-notes/06-Inductance.pdf)
+* [Introduction to RLC Circuits](./handwritten-notes/07-Introduction_to_RLC.pdf)
+* [RL Circuit Example](./handwritten-notes/08-RL_Example.pdf)
+* [RLC Circuits](./handwritten-notes/09-RLC.pdf)
+* [Homework 4 (Due Fri. Feb. 9)](./assignments/homework4.html)
+
+---
+
 ### Week 4 - Faraday's Law
 
 #### Pre-class Videos
@@ -17,9 +45,8 @@ use_math: true
 
 #### Reading
 
-* Read Ch 7.2.3 for this week
 * Read [this paper on quantitative experiments on Faraday's Law](./papers/1986_Nicklin_FL_QuantExp.pdf)
-* Read Ch 7.3.1-7.3.3 for next week
+* Read Ch 7.2.3 for this week
 
 ### In-Class Activities
 
