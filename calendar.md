@@ -23,7 +23,8 @@ Coming soon
 
 ### In-Class Activities
 
-Coming soon
+* [Mutual Inductance](./in-class/05-mutualinductance.html)
+* [Designing an RL Circuit](./in-class/05-rlcircuit.html)
 
 #### Notes and Homework
 

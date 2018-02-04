@@ -4,6 +4,12 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 5 (Inductance and RLC Circuits)
+
+* [Mutual Inductance](./05-mutualinductance.html)
+* [Designing an RL Circuit](./05-rlcircuit.html)
+
+
 ### Week 4 (Faraday's Law)
 * [Magnetic Rotation Demo](./04-rotatingphysicsdemo.html)
 * [Charging a toothbrush](./04-chargingtoothbrush.html)
