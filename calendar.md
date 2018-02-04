@@ -13,7 +13,10 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon
+* [Mutual Inductance](https://www.youtube.com/watch?v=BRAS5LEhVlc)
+* [Self Inductance](https://www.youtube.com/watch?v=f0tHnFdSwoM)
+* [Reminders about Circuits](https://www.youtube.com/watch?v=Zgo9Vx_jYjk)
+* [An RL Circuit Example](https://www.youtube.com/watch?v=9OKjTEi8KFk)
 
 #### Reading
 
