@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 6 (RLC Circuits, Phasors, Leading and Lagging)
+
+* [Designing an RL Circuit II](./06-rlcircuitphasors.html)
+* [Filtering Signals](./06-filters.html)
+
 ### Week 5 (Inductance and RLC Circuits)
 
 * [Mutual Inductance](./05-mutualinductance.html)

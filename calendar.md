@@ -7,6 +7,33 @@ use_math: true
 
 ---
 
+### Week 6 - RLC Circuits, Phasors, Leading and Lagging
+
+*The readings and notes here are the same as last week*
+
+#### Pre-class Videos
+
+Coming soon..
+
+#### Reading
+
+* Read my notes on RLC circuits for this week
+* Read [this paper on phasors](./papers/2015_Close_Phasors.pdf)
+* Read Ch 7.3.1-7.3.3 for next week
+
+### In-Class Activities
+
+* [Designing an RL Circuit II](./in-class/06-rlcircuitphasors.html)
+* [Filtering Signals](./in-class/06-filters.html)
+
+#### Notes and Homework
+
+* [Inductance](./handwritten-notes/06-Inductance.pdf)
+* [Introduction to RLC Circuits](./handwritten-notes/07-Introduction_to_RLC.pdf)
+* [RL Circuit Example](./handwritten-notes/08-RL_Example.pdf)
+* [RLC Circuits](./handwritten-notes/09-RLC.pdf)
+* [Homework 5 (Due Fri. Feb. 16)](./assignments/homework5.html)
+
 ### Week 5 - Inductance and RLC Circuits
 
 *We are likely to continue RLC Circuits next week, so don't worry about taking your time with readings.*
