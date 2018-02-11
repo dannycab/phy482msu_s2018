@@ -13,7 +13,9 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon..
+* [Reminders about Complex Numbers](https://youtu.be/fAjEsz3qppA)
+* [Phasors and Impedance](https://youtu.be/DAc4EHRs7XI)
+* [Leading and Lagging](https://youtu.be/V7sa-godL7A)
 
 #### Reading
 
