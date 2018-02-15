@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Motional EMF and energy conservation</title>
+  <title>Homework 6 (Due. Feb 23)</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/03-motional_emf.html">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/assignments/homework6.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -500,40 +500,82 @@
 </header>-->
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="container well">
+      <div class="container well">
 
-  <header class="post-header">
-    <h1 class="post-title">Motional EMF and energy conservation</h1>
-  </header>
+        <h1 class="post-title">Homework 6 (Due. Feb 23)</h1>
+          <div >
+    <h2 id="1-leading-and-lagging-current">1. Leading and Lagging Current</h2>
 
-  <div class="post-content">
-    <p>A metal bar (mass, $m$) is placed across two very long, parallel metal rails (separated by a distance, $L$) that are connceted through a resistor ($R$). A constant magnetic field ($B_0$) points into the page. You give the metal bar a quick flick away in the direction away from the resistor. You notice that the bar comes to a stop after some time traveling down the rails. Explain how this happens. Sketch the velocity of the bar as a function of time.</p>
+<p>The phase difference between different measurable aspects of a circuit (e.g., voltage and current) are important in a variety of experimental setups. In this question, you will explore this idea a bit more by doing some of your own research and critiquing two different ways of representing current and voltage measures.</p>
 
-<p>The power dissipated in a resistor is $P=I^2R$. Given the initial flick of the metal bar, show that energy is conserved in this strange circuit system.</p>
+<ol>
+  <li>Start by reading about leading and lagging current. You can read the <a href="https://en.wikipedia.org/wiki/Leading_and_lagging_current">wikipedia article</a>, but any other reputable site is fine as well. Summarize what leading and lagging current is and how it’s defined.</li>
+  <li>Consider a <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RLC_series_circuit_v1.svg/433px-RLC_series_circuit_v1.svg.png">standard RLC circuit</a> with each circuit element in series with the next. The whole circuit is driven with an AC voltage $V=V_0\cos(\omega t)$. Find the real current through the voltage source using the method of phasors ($\widetilde{V} = \widetilde{I}\widetilde{Z}$).</li>
+  <li>Can you determine if the phase you found in part 2 is positive or negative? What governs the sign of the phase?</li>
+  <li>Assume that $1/(\omega C) &gt; \omega L$. Sketch $Z_{tot}$ in the complex plane. Separately sketch $\widetilde{V}$ and $\widetilde{I}$ in the complex plane at a time $\pi/(4\omega)$. Does the current lead the voltage or lag it? How can you tell?</li>
+  <li>Sketch the driving voltage and the current through the voltage source as a function of time. Does the current lead the voltage or lag it? How can you tell?</li>
+  <li>Assume that $1/(\omega C) &lt; \omega L$. What happens to your answers in parts 4 and 5?</li>
+  <li>Critique the phasor and time domain representations. Which makes more sense to you to understand leading and lagging? Do you see any problems with using the “rules” we discussed in class (i.e., “leading means peaks before” and “lagging means peaks after”)? Is there anything you need to be careful about when using those rules?</li>
+  <li>Find an experiment where knowing about leading and lagging current matters. Briefly summarize it.</li>
+</ol>
 
-<p>How does all this fit with your knowledge about magnetic forces and work?</p>
+<h2 id="2-parallel-rlc-circuit">2. Parallel RLC Circuit</h2>
+
+<p><img src="/phy482msu_s2018/assignments/images/hw6/parallel_RLC.png" alt="RLC" /></p>
+
+<p>This parallel RLC circuit is driven by an AC voltage $V=V_0 \cos(\omega t)$.</p>
+
+<ol>
+  <li>What is the total complex impedance that the voltage source sees? Write the answer in the format $Z = Z e^{i\theta}$; i.e., give the magnitude and phase angle of the impedance. (<em>Hint: It is simplest to begin by computing the magnitude and phase of $1/Z$.</em>)</li>
+  <li>Using complex analysis (the phasor method) solve for the “true” current $I_{true}$ through the voltage source $I_{true} = Re\left[I\right]$.</li>
+  <li><strong>Using a jupyter notebook</strong>, graph the magnitude of the current I vs. frequency. At what frequency is the current at an extremum?</li>
+</ol>
+
+<p><strong>You will turn your notebook in using your GitHub repository.</strong></p>
+
+<h2 id="3-a-terminated-line-current">3. A Terminated Line Current</h2>
+
+<p>Consider a straight wire that runs from $z=-\infty$ to $z=0$ that has a steady current flowing $I$. At the location where the wire terminates, charge builds up, $Q(t)$. The goal of this problem is to find the magnetic field everywhere.</p>
+
+<ol>
+  <li>Determine the electric field produced by the charge buildup.</li>
+  <li>Determine the displacement current in terms of $I$. Think about how conservation of charge tells you about the relationship between $Q(t)$ and $I$.</li>
+  <li>In part 2, you should have found a spherically symmetric result. Using Ampere’s Law with a hemispherical cap (circular loop around the charge in the plane perpendicular to the long wire) in the positive z-direction, find the integral of $\oint \mathbf{B} \cdot d\mathbf{l}$.</li>
+  <li>Using Ampere’s Law with a hemispherical cap (circular loop around the charge in the plane perpendicular to the long wire) in the negative z-direction, find the integral of $\oint \mathbf{B} \cdot d\mathbf{l}$. Does this agree with part 3?</li>
+  <li>Find the magnetic field everywhere in the plane (z=0) that intersects the line current.</li>
+  <li>Find the resulting magnetic field everywhere in space. Did you remember the long wire? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.</li>
+</ol>
+
+<h2 id="4-a-terminated-surface-current">4. A Terminated Surface Current</h2>
+
+<p>Consider a current with surface density $\mathbf{K} = -\vert K\vert\hat{x}$ that flows in a half-plane ($z=0$, $x&gt;0$). The current results in an accumulation of charge on the line boundary of the half-plane. The goal of this problem is to find the magnetic field everywhere.</p>
+
+<ol>
+  <li>Determine the electric field produced by the charge buildup, for now you may use $\lambda(t)$.</li>
+  <li>Determine the displacement current in terms of $\mathbf{K}$. Think about how conservation of charge tells you about the relationship between $\lambda(t)$ and $\mathbf{K}$.</li>
+  <li><strong>Bonus:</strong> Find the resulting magnetic field everywhere in space. Did you remember the surface current? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.</li>
+</ol>
+
+<h2 id="5-project-problem---building-your-paper-iii">5. Project Problem - Building your paper III</h2>
+
+<p>Last week, you built on your paper by adding to the summary that you wrote two weeks ago; filling it out with additional detail and responding to the feedback that you received. Like last week, you will be building and working towards finalizing a full draft of your paper. It doesn’t have to be entirely done, that’s what the next two weeks are for, but it should be getting close. Again, work to write something that is coherent and tells a complete story. Make sure that you think about the feedback that you received last week and the week before. Make sure you check it for spelling and grammar. This is your chance to really push out a good draft of your paper and get feedback from me before turining in the final project in two weeks.</p>
+
+<p>For this week, you should start thinking about:</p>
+
+<ul>
+  <li>What are the difficulties or successes connecting theory and experiment?</li>
+  <li>How can I dig deeper and explain in more detail what I’ve learned from the previous papers and the ones I’m reading currently?</li>
+  <li>What kind of feedback did I get about my previous summary and how do I improve on what I’ve done?</li>
+</ul>
+
+<p><strong>My aim for scaffolding your paper writing with these homework problems is to make the eventual paper that you turn in less stressful and to give you a chance to get feedback from me early on. So take this last chance seriously.</strong></p>
+
+<p><strong>You will turn this question in using your GitHub repository.</strong></p>
 
   </div>
 
-</div>
 
       </div>
-    </div>
-
-    <footer class="footer">
-    <div class="container alert alert-info">
-        <div class="col-md-8">
-            <p>Website for Physics 482 - Electricity and Magnetism II at Michigan State University
-</p>
-        </div>
-        <div class="col-md-4">
-          Contact: <a href="mailto:caballero@pa.msu.edu">caballero@pa.msu.edu</a> <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
-
 
   </body>
 

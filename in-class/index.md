@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 7 (Maxwell's Correction to Ampere's Law)
+
+* [Magnetic field due to a charging capacitor](./07-chargingcap.html)
+* [Terminated line current](./07-terminatedlinecurrent.html)
+
 ### Week 6 (RLC Circuits, Phasors, Leading and Lagging)
 
 * [Designing an RL Circuit II](./06-rlcircuitphasors.html)

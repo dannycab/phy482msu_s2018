@@ -7,6 +7,30 @@ use_math: true
 
 ---
 
+### Week 7 - Maxwell's Correction to Ampere's Law
+
+#### Pre-class Videos
+
+Coming soon...
+
+#### Reading
+
+* Read Ch 7.3.1-7.3.3 for this week
+* Read [this paper on the leaky capacitor](./papers/1962_French_Displacement_Current.pdf)
+* Read Ch 8.1.1-8.2.2 for next week
+
+### In-Class Activities
+
+* [Magnetic field due to a charging capacitor](./in-class/07-chargingcap.html)
+* [Terminated line current](./in-class/07-terminatedlinecurrent.html)
+
+
+#### Notes and Homework
+
+* [Maxwell's Equations](./handwritten-notes/10-Maxwell_Equationspdf)
+* [Displacement Current](./handwritten-notes/11_Displacement_Current.pdf)
+* [Homework 6 (Due Fri. Feb. 23)](./assignments/homework6.html)
+
 ### Week 6 - RLC Circuits, Phasors, Leading and Lagging
 
 *The readings and notes here are the same as last week*
