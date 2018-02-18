@@ -11,7 +11,9 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon...
+* [Are Maxwell's Equations Complete?](https://www.youtube.com/watch?v=wrx5Oi0VBhc)
+* [Fixing Ampere's Law](https://www.youtube.com/watch?v=6pk4aU5hVMw)
+* [The Displacement Current](https://www.youtube.com/watch?v=mCLVpGgQVp4)
 
 #### Reading
 
@@ -27,7 +29,7 @@ Coming soon...
 
 #### Notes and Homework
 
-* [Maxwell's Equations](./handwritten-notes/10-Maxwell_Equationspdf)
+* [Maxwell's Equations](./handwritten-notes/10-Maxwell_Equations.pdf)
 * [Displacement Current](./handwritten-notes/11_Displacement_Current.pdf)
 * [Homework 6 (Due Fri. Feb. 23)](./assignments/homework6.html)
 
