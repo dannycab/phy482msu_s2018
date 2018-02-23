@@ -7,6 +7,33 @@ use_math: true
 
 ---
 
+### Week 8 Conservation of Charge and Energy
+
+#### Pre-class Videos
+
+Coming soon...
+
+#### Reading
+
+* Read Ch 8.1.1-8.2.2 for next week
+* Read [this paper on the Poynting vector](./papers/2000_Macjen_Poynting_vector.pdf)
+* Read [this paper on Energy transfer in circuits](./papers/2005_Galili_energy_transfer.pdf)
+* Read Ch 8.2.3-8.3 for next week
+
+### In-Class Activities
+
+* [Energy Conservation in EM Systems](./in-class/08-energyconservation.html)
+* [Energy Delivery](./in-class/08-energydelivery.html)
+
+
+#### Notes and Homework
+
+* [Energy Conservation](./handwritten-notes/12-Energy_Conservation.pdf)
+* [Poynting Vector](./handwritten-notes/13-Poynting_vector.pdf)
+* [Project 1 (Due Fri. Mar 2 - before spring break)](./assignmnets/project1.html)
+* [Homework 7 (Due Fri. Mar. 16 - after spring break)](./assignments/homework7.html)
+
+
 ### Week 7 - Maxwell's Correction to Ampere's Law
 
 #### Pre-class Videos
@@ -30,7 +57,7 @@ use_math: true
 #### Notes and Homework
 
 * [Maxwell's Equations](./handwritten-notes/10-Maxwell_Equations.pdf)
-* [Displacement Current](./handwritten-notes/11_Displacement_Current.pdf)
+* [Displacement Current](./handwritten-notes/11-Displacement_Current.pdf)
 * [Homework 6 (Due Fri. Feb. 23)](./assignments/homework6.html)
 
 ### Week 6 - RLC Circuits, Phasors, Leading and Lagging

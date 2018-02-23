@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 8 (Conservation of Charge and Energy)
+
+* [Energy Conservation in EM Systems](./08-energyconservation.html)
+* [Energy Delivery](./08-energydelivery.html)
+
 ### Week 7 (Maxwell's Correction to Ampere's Law)
 
 * [Magnetic field due to a charging capacitor](./07-chargingcap.html)
