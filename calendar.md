@@ -11,7 +11,10 @@ use_math: true
 
 #### Pre-class Videos
 
-Coming soon...
+* [Charge Conservation](https://www.youtube.com/watch?v=WBpfuTtVpKI)
+* [Local Energy Conservation](https://www.youtube.com/watch?v=6FBcLM5ZaM0)
+* [Global Energy Conseravtion](https://www.youtube.com/watch?v=LEdLIGMcTPc)
+* [Poynting Vector Example](https://www.youtube.com/watch?v=38et8jZH_Wk)
 
 #### Reading
 
@@ -22,8 +25,10 @@ Coming soon...
 
 ### In-Class Activities
 
-* [Energy Conservation in EM Systems](./in-class/08-energyconservation.html)
-* [Energy Delivery](./in-class/08-energydelivery.html)
+* [Energy Conservation in EM Systems](./in-class/
+* * 08-energyconservation.html)
+* [Energy Delivery](./in-class/*
+* 08-energydelivery.html)
 
 
 #### Notes and Homework
