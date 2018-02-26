@@ -25,10 +25,8 @@ use_math: true
 
 ### In-Class Activities
 
-* [Energy Conservation in EM Systems](./in-class/
-* * 08-energyconservation.html)
-* [Energy Delivery](./in-class/*
-* 08-energydelivery.html)
+* [Energy Conservation in EM Systems](./in-class/08-energyconservation.html)
+* [Energy Delivery](./in-class/08-energydelivery.html)
 
 
 #### Notes and Homework
