@@ -5,6 +5,27 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 9 Introduction to Waves
+
+#### Pre-class Videos
+
+* Coming soon...
+
+#### Reading
+
+* Read my notes on waves for this week
+
+### In-Class Activities
+
+* Coming soon...
+
+
+#### Notes and Homework
+
+* [Introduction to Waves](./handwritten-notes/14-Introduction_to_waves.pdf)
+* [Electromagnetic Waves](./handwritten-notes/15-Electromagnetic_waves.pdf)
+* [Homework 7 (Due Fri. Mar. 16)](./assignments/homework7.html)
+
 ---
 
 ### Week 8 Conservation of Charge and Energy
@@ -18,7 +39,7 @@ use_math: true
 
 #### Reading
 
-* Read Ch 8.1.1-8.2.2 for next week
+* Read Ch 8.1.1-8.2.2 for this week
 * Read [this paper on the Poynting vector](./papers/2000_Macjen_Poynting_vector.pdf)
 * Read [this paper on Energy transfer in circuits](./papers/2005_Galili_energy_transfer.pdf)
 * Read Ch 8.2.3-8.3 for next week
