@@ -9,11 +9,14 @@ use_math: true
 
 #### Pre-class Videos
 
-* Coming soon...
+* [Introduction to Waves](https://youtu.be/UP812tC4ajU)
+* [Sinusoidal Traveling Waves](https://youtu.be/Z-qj3xyTqos)
+* [Three-dimensional Waves](https://youtu.be/ALOYDSEHR2E)
 
 #### Reading
 
 * Read my notes on waves for this week
+* Read Griffith's Chapter 9.1.1 and 9.1.2
 
 ### In-Class Activities
 
