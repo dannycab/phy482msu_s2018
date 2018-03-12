@@ -22,7 +22,6 @@ use_math: true
 
 * [Checking solutions to the wave equation](./in-class/09-checkingsolutions.html)
 
-
 #### Notes and Homework
 
 * [Introduction to Waves](./handwritten-notes/14-Introduction_to_waves.pdf)
