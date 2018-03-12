@@ -20,7 +20,7 @@ use_math: true
 
 ### In-Class Activities
 
-* Coming soon...
+* [Checking solutions to the wave equation](./in-class/09-checkingsolutions.html)
 
 
 #### Notes and Homework

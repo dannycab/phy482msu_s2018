@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Homework 1 (Due. Jan 19)</title>
+  <title>Checking solutions to wave equation</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/assignments/homework1.html">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/09-checkingsolutions.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -540,113 +540,48 @@
 </header>-->
 
 
-      <div class="container well">
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="container well">
 
-        <h1 class="post-title">Homework 1 (Due. Jan 19)</h1>
-          <div >
-    <h2 id="1-sketching">1. Sketching</h2>
+  <header class="post-header">
+    <h1 class="post-title">Checking solutions to wave equation</h1>
+  </header>
 
-<ol>
-  <li>Make a quick sketch, in the x-y plane, of the following (two-dimensional) vector function. Plot enough different vectors to give a feeling for what this field looks like in the x-y plane.
-<script type="math/tex">\dfrac{x}{\left(x^2+y^2\right)^{3/2}}\hat{\mathbf{x}}+\dfrac{y}{\left(x^2+y^2\right)^{3/2}}\hat{\mathbf{y}}</script></li>
-  <li>Explain briefly in words what this plot is showing. Is it physically realizable as an electrostatic field?</li>
-  <li>Do the same as above for the field:
-<script type="math/tex">\left(2\cos \theta\,\hat{\mathbf{r}} + \sin \theta\,\hat{\mathbf{\theta}}\right)/r^3</script>
-(Here, I am assuming we are in 3-D spherical coordinates, but there is no azimuthal dependence. How should you “sketch” this?) Where have you seen this field before?</li>
-</ol>
+  <div class="post-content">
+    <p>We have claimed that solutions to the 1D wave equation $\dfrac{\partial^2 f}{\partial z^2} = \dfrac{1}{v^2}\dfrac{\partial^2 f}{\partial t^2}$ must take the form $f(z,t) = g(z-vt) + h(z+vt)$. Show explicitly that solutions of this form solve the wave equation.</p>
 
-<h2 id="2-divergence-and-curl-of-a-vector-field">2. Divergence and Curl of a Vector Field</h2>
+<p>We will often be interested in travelling wave solutions to the wave equation, show explicitly that $f(z,t) = A \cos [k(z-vt)+\delta]$ solves the wave equation. Use the complex version of this solution to illustrate how $v$, $k$, and $\omega$ are related.</p>
 
-<p>For each of the vector fields sketched below:</p>
+<p>Travelling wave solutions are really nice because we can write any periodic function f(z,t) as an infinite series sum of travelling wave solutions. Consider the following periodic function constructed from an series of functions,</p>
 
-<ol>
-  <li>Which of them have nonzero divergence somewhere? If the divergence is nonzero only at isolated points, which point(s) would that be?</li>
-  <li>Which of the following fields have nonzero curl somewhere? If the curl is nonzero only at isolated points, which point(s) would that be?</li>
-</ol>
+<p>$f(z,t) = \sum_n a_n \cos(k_nz-\omega_nt) + b_n \sin(k_nz-\omega_nt)$</p>
 
-<p>A. <img src="/phy482msu_s2018/assignments/images/hw1/a.png" alt="Image A" /></p>
+<p>Show that this function satisfies the wave equation. Can you do this same proof using a continuous description of the function?</p>
 
-<p>(Note: All arrows are the same length)</p>
+<p>$f(z,t) = \int a(\omega) \cos(k(\omega)z-\omega t) + b(\omega) \sin(k(\omega)z-\omega t) d\omega$</p>
 
-<p>B. <img src="/phy482msu_s2018/assignments/images/hw1/b.png" alt="Image B" /></p>
-
-<p>(Note: Arrows have no length in the middle)</p>
-
-<p>C. <img src="/phy482msu_s2018/assignments/images/hw1/c.png" alt="Image C" /></p>
-
-<p>(Note: Arrows growing in length as $r^2$)</p>
-
-<p>D. <img src="/phy482msu_s2018/assignments/images/hw1/d.png" alt="Image D" /></p>
-
-<p>E. <img src="/phy482msu_s2018/assignments/images/hw1/e.png" alt="Image E" /></p>
-
-<p>(Note: Arrows decreasing in length as $1/r^2$.  Think of a “Coulomb field” of a point charge here…)</p>
-
-<h2 id="3-a-few-short-computations">3. A few short computations</h2>
-
-<ol>
-  <li>Compute the divergence and curl of $(x+y)\hat{\mathbf{i}}+(y+z)\hat{\mathbf{j}}+(x-2z)\hat{\mathbf{k}}$.</li>
-  <li>Could this field be a physical electrostatic field in some limited region of space near the origin? Very briefly, explain your reasoning.</li>
-  <li>Given the following mathematical form for a volume charge density $\rho(\mathbf{r})$, describe the charge distribution in words, and also draw a little sketch showing where the charges are: $\rho(\mathbf{r}) = a\delta^3(\mathbf{r}-\mathbf{R}) + b\delta(r-R)$, where $a$, $b$ are given constants with appropriate units, $\mathbf{R}=\langle 2,0,0\rangle$, and as usual $r = \lvert\mathbf{r}\rvert$.</li>
-  <li>What are the (SI metric) units of $a$ and $b$ in the charge density expression above?</li>
-  <li>What is the total charge, in terms of the given constants in the equation?</li>
-</ol>
-
-<h2 id="4-the-electric-field-and-gauss-law">4. The Electric Field and Gauss’ Law</h2>
-
-<ol>
-  <li>What exactly is $\mathbf{E}$, the electric field? Define it. How do you think about it, both mathematically and in words. Please define any technical words you introduce.</li>
-  <li>Gauss’ Law states: $\oint_S \mathbf{E}\cdot\hat{\mathbf{n}}\,dA = \frac{q_{enclosed}}{\varepsilon_0}$
-Suppose I evenly fill a cube (length $L$ on a side) with electric charge. I then imagine a larger, closed cubical surface neatly surrounding this cube (length $2L$ on a side). Can you use Gauss’ law (above) to simply compute the value of the electric field at arbitrary points outside the charged cube? (Don’t try, just tell me if you could, and why/why not?)</li>
-</ol>
-
-<h2 id="5-field-charge-and-voltage">5. Field, Charge, and Voltage</h2>
-
-<p>Given that an electric field in some region of space is given by $\mathbf{E}(x,y,z) = cy\hat{\mathbf{j}}$, where $c$ is a given constant.</p>
-
-<ol>
-  <li>What are the SI units of c?</li>
-  <li>What, if anything, can you tell us about the charge density throughout this region, $\rho(x,y,z)$?</li>
-  <li>What is the voltage associated with this E field? (Is your answer unique?)</li>
-</ol>
-
-<h2 id="6-the-magnetic-field">6. The Magnetic Field</h2>
-
-<p>You have an infinitely tall, infinitesimally thin cylindrical sheet of surface current running around the $z$-axis, i.e., $\mathbf{K} = K_0 \hat{\phi}$ at $s=R$ (otherwise 0), as shown below.</p>
-
-<p><img src="/phy482msu_s2018/assignments/images/hw1/K_phi.png" alt="K in phi direction" /></p>
-
-<ol>
-  <li>What are the SI units of $K_0$?</li>
-  <li>Sketch the magnitude of the resulting $B$ field as a function of radial distance, $s$
-(both inside and outside the sheet).</li>
-  <li>Briefly, show/explain your work for part 2. (<em>If you grabbed a formula from Griffiths, explain concisely where it comes from.</em>)</li>
-</ol>
-
-<h2 id="7-plotting-the-electric-field">7. Plotting The Electric Field</h2>
-
-<p>In this problem, use a Jupyter notebook to plot the field of:</p>
-
-<ol>
-  <li>a positive point charge</li>
-  <li>an electric dipole</li>
-  <li>an electric quadrupole</li>
-</ol>
-
-<p>You might want to review homework sets from PHY 481 or just look up how to use <a href="http://matplotlib.org/examples/pylab_examples/quiver_demo.html">quiver plot with Matplotlib</a>.</p>
-
-<p><strong>You will turn this in using a GitHub repository.</strong> <a href="https://piazza.com/class/jbxx8eouk4q4mk?cid=8">Please see Piazza for more instructions.</a></p>
-
-<h2 id="8-project-problem---what-is-interesting">8. Project Problem - What is interesting?</h2>
-
-<p>This problem is to help you get started on your individual research project. First, define your phenomenon: what is it and why is it interesting to you? Find a few papers (at least 4) that you can use to start your background research. Please give the full references to these papers. Write 2 to 3 paragraphs that describe your phenomenon and your interest in it.</p>
-
-<p><strong>You will turn this in using a GitHub repository.</strong> <a href="https://piazza.com/class/jbxx8eouk4q4mk?cid=8">Please see Piazza for more instructions.</a></p>
+<p>where $a$, $b$, and $k$ are all functions of $\omega$….</p>
 
   </div>
 
+</div>
 
       </div>
+    </div>
+
+    <footer class="footer">
+    <div class="container alert alert-info">
+        <div class="col-md-8">
+            <p>Website for Physics 482 - Electricity and Magnetism II at Michigan State University
+</p>
+        </div>
+        <div class="col-md-4">
+          Contact: <a href="mailto:caballero@pa.msu.edu">caballero@pa.msu.edu</a> <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+    </div>
+</footer>
+
 
   </body>
 

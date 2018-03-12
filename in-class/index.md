@@ -4,6 +4,10 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 9 (Introduction to Waves)
+
+* [Checking solutions to the wave equation](./09-checkingsolutions.html)
+
 ### Week 8 (Conservation of Charge and Energy)
 
 * [Energy Conservation in EM Systems](./08-energyconservation.html)
