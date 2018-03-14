@@ -10,7 +10,7 @@ Anyway, I bet you remember sending a pulse down the rope and it coming back at y
 
 Consider now explicitly the general 1D solutions to the wave equations where the left rope is the one which has the initial wiggles,
 
-$\tilde{f}_{left}(z,t) = \tilde{A}_Ie^{i(k_lz-\omega t)} + \tilde{A}_Re^{i(-k_lz+\omega t)}$
+$\tilde{f}_{left}(z,t) = \tilde{A}_Ie^{i(k_lz-\omega t)} + \tilde{A}_Re^{i(-k_lz-\omega t)}$
 
 $\tilde{f}_{right}(z,t) = \tilde{A}_Te^{i(k_rz-\omega t)}$
 
