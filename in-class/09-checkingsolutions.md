@@ -6,7 +6,7 @@ title: Checking solutions to wave equation
 
 We have claimed that solutions to the 1D wave equation $\dfrac{\partial^2 f}{\partial z^2} = \dfrac{1}{v^2}\dfrac{\partial^2 f}{\partial t^2}$ must take the form $f(z,t) = g(z-vt) + h(z+vt)$. Show explicitly that solutions of this form solve the wave equation.
 
-We will often be interested in travelling wave solutions to the wave equation, show explicitly that $f(z,t) = A \cos [k(z-vt)+\delta]$ solves the wave equation. Use the complex version of this solution to illustrate how $v$, $k$, and $\omega$ are related.
+We will often be interested in travelling wave solutions to the wave equation, show explicitly that $f(z,t) = A \cos [kz-\omega t+\delta]$ solves the wave equation. Use the complex version of this solution to illustrate how $v$, $k$, and $\omega$ are related.
 
 Travelling wave solutions are really nice because we can write any periodic function f(z,t) as an infinite series sum of travelling wave solutions. Consider the following periodic function constructed from a series of functions,
 

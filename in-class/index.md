@@ -7,6 +7,7 @@ permalink: in-class/index.html
 ### Week 9 (Introduction to Waves)
 
 * [Checking solutions to the wave equation](./09-checkingsolutions.html)
+* [Tied Strings](./09-tiedstrings.html)
 
 ### Week 8 (Conservation of Charge and Energy)
 

@@ -11,7 +11,7 @@ use_math: true
 
 * [Introduction to Waves](https://youtu.be/UP812tC4ajU)
 * [Sinusoidal Traveling Waves](https://youtu.be/Z-qj3xyTqos)
-* [Three-dimensional Waves](https://youtu.be/ALOYDSEHR2E)
+* [Three-dimensional Waves](https://youtu.be/ohdN8F-J_MM)
 
 #### Reading
 
@@ -21,6 +21,8 @@ use_math: true
 ### In-Class Activities
 
 * [Checking solutions to the wave equation](./in-class/09-checkingsolutions.html)
+* [Tied Strings](./in-class/09-tiedstrings.html)
+
 
 #### Notes and Homework
 
