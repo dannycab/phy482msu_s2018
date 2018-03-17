@@ -5,6 +5,29 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 10 Introduction to EM Waves
+
+#### Pre-class Videos
+
+* Coming soon...
+
+#### Reading
+
+* Read my notes on waves for this week
+* Read Griffith's Chapter 9.1.3, 9.1.4, and 9.2.1
+
+### In-Class Activities
+
+* Coming soon...
+
+
+#### Notes and Homework
+
+* [Electromagnetic Waves](./handwritten-notes/15-Electromagnetic_waves.pdf)
+* [Homework 8 (Due Fri. Mar. 23)](./assignments/homework8.html)
+
+---
+
 ### Week 9 Introduction to Waves
 
 #### Pre-class Videos
@@ -27,7 +50,6 @@ use_math: true
 #### Notes and Homework
 
 * [Introduction to Waves](./handwritten-notes/14-Introduction_to_waves.pdf)
-* [Electromagnetic Waves](./handwritten-notes/15-Electromagnetic_waves.pdf)
 * [Homework 7 (Due Fri. Mar. 16)](./assignments/homework7.html)
 
 ---
