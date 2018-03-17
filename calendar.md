@@ -14,7 +14,7 @@ use_math: true
 #### Reading
 
 * Read my notes on waves for this week
-* Read Griffith's Chapter 9.1.3, 9.1.4, and 9.2.1
+* Read Griffith's Chapter 9.1.3 through 9.2.2
 
 ### In-Class Activities
 
