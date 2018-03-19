@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Designing RL Circuit</title>
+  <title>polarization</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/05-rlcircuit.html">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/10-polarization.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -577,15 +577,17 @@
         <div class="container well">
 
   <header class="post-header">
-    <h1 class="post-title">Designing RL Circuit</h1>
+    <h1 class="post-title">polarization</h1>
   </header>
 
   <div class="post-content">
-    <p>Consider an RL circuit (a resistor, $R$, and inductor, $L$, in series with a voltage source) with a sinusoidally varying voltage source ($V(t) = V_0 \sin (\omega t)$). Find the current as a function of time, $I(t)$. That is, determine both the transient response $I_H$ and the persistent result, $I_p$.</p>
+    <p>Up to now, we have worked with one-dimensional sinusoidal traveling waves <script type="math/tex">f(z,t) = \tilde{A}e^{i(kz-\omega t)}.</script> that satisfy the 1D wave equation,</p>
 
-<p>For this first attempt, use what you know about differential equations. Remember to solve the homogenous and particular problem!</p>
+<script type="math/tex; mode=display">\dfrac{\partial^2 f}{\partial z^2} = \dfrac{1}{v^2}\dfrac{\partial^2 f}{\partialt^2}.</script>
 
-<p>Sketch the resulting current. How might you control the transient response (make it short!) to ensure it is a small effect compared to the desired persistent response?</p>
+<p>We have also shown that sinusoidal traveling waves that propogate in 3D satisfy the wave equation,</p>
+
+<script type="math/tex; mode=display">f(\mathbf{r},t) = \tilde{A}e^{i(\mathbf{k}\cdot\mathbf{r}-\omega t)}.</script>
 
   </div>
 

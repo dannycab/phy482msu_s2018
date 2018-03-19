@@ -9,7 +9,7 @@ use_math: true
 
 #### Pre-class Videos
 
-* Coming soon...
+* Will appear after Monday's class as you will be uncovering one of the most impressive E&M discoveries in class on Monday
 
 #### Reading
 
