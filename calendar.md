@@ -18,7 +18,8 @@ use_math: true
 
 ### In-Class Activities
 
-* Coming soon...
+* [Vector waves](./in-class/10-vectorwaves.html)
+* [Maxwell's Equations and Waves](./in-class/10-maxwellwaves.html)
 
 
 #### Notes and Homework

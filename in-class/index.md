@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 10 (Introduction to EM Waves)
+
+* [Vector waves](./10-vectorwaves.html)
+* [Maxwell's Equations and Waves](./10-maxwellwaves.html)
+
 ### Week 9 (Introduction to Waves)
 
 * [Checking solutions to the wave equation](./09-checkingsolutions.html)
