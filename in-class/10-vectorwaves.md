@@ -14,7 +14,7 @@ $$\nabla^2 f = \dfrac{1}{v^2}\dfrac{\partial^2 f}{\partial t^2}.$$
 
 Electromagnetic radiation consist of vector waves. What kind of wave equation would a vector traveling wave solution satisfy,
 
-$$\mathbf{f} = \tilde{A_z}e^{i(kz-\omega t)}\hat{x} + \tilde{A_y}e^{i(kz-\omega t)}\hat{y}$$
+$$\mathbf{f} = \tilde{A_x}e^{i(kz-\omega t)}\hat{x} + \tilde{A_y}e^{i(kz-\omega t)}\hat{y}$$
 
 and how would you describe this wave? Is it 1D? 3D? Something else? How can we sketch a wave like this?
 
