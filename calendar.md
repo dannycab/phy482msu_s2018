@@ -5,15 +5,33 @@ permalink: calendar.html
 use_math: true
 ---
 
-### Week 10 Introduction to EM Waves
+### Week 11 Reflection and Transmission
 
-#### Pre-class Videos
-
-* Will appear after Wednesdays's class as you will be uncovering one of the most impressive E&M discoveries in class on Monday
 
 #### Reading
 
-* Read my notes on waves for this week
+* Read my notes
+* Read Griffith's Chapter 9.3.1 through 9.3.3
+
+### In-Class Activities
+
+* Coming soon
+
+
+#### Notes and Homework
+
+* [Electromagnetic Waves in Matter](./handwritten-notes/16-EM_Waves_in_Matter.pdf)
+* [Reflection and Transmission](./handwritten-notes/17-Reflection_and_Transmission.pdf)
+* [Homework 9 (Due Fri. Mar. 30)](./assignments/homework9.html)
+
+---
+
+
+### Week 10 Introduction to EM Waves
+
+#### Reading
+
+* Read my notes
 * Read Griffith's Chapter 9.1.3 through 9.2.2
 
 ### In-Class Activities
@@ -39,7 +57,7 @@ use_math: true
 
 #### Reading
 
-* Read my notes on waves for this week
+* Read my notes
 * Read Griffith's Chapter 9.1.1 and 9.1.2
 
 ### In-Class Activities
