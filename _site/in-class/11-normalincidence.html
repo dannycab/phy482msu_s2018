@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>What is steady state?</title>
+  <title>Normal Incidence</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/02-steadystate.html">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/11-normalincidence.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -601,13 +601,39 @@
         <div class="container well">
 
   <header class="post-header">
-    <h1 class="post-title">What is steady state?</h1>
+    <h1 class="post-title">Normal Incidence</h1>
   </header>
 
   <div class="post-content">
-    <p>Consider a long piece of conducting material ($\sigma$) with a length $L$ and arbitrarily-shaped cross-sectional of area $A$. The ends of this wire are connected to a battery with potential differences $\Delta V$, so that current flows.</p>
+    <p>We learned about the boundary conditions between two materials with different permittivities last semester.  This lead us to the following set of conditions when there are no free currents or charges as is the case when an electromagnetic wave travels from one medium to another.</p>
 
-<p>Using Laplace’s equation ($\nabla^2 V = 0$), show that electric field in the wire is constant. Make sure you can argue how your solution to Laplace’s equation satisfies the relevant boundary conditions. What do your results mean for how we define steady state?</p>
+<script type="math/tex; mode=display">\varepsilon_1 E^{\perp}_1 = \varepsilon_2 E^{\perp}_2 \qquad \mathbf{E}^{\parallel}_1 = \mathbf{E}^{\parallel}_2</script>
+
+<script type="math/tex; mode=display">B^{\perp}_1 = B^{\perp}_2 \qquad \dfrac{1}{\mu_1}\mathbf{B}^{\parallel}_1 = \dfrac{1}{\mu_2}\mathbf{B}^{\parallel}_2</script>
+
+<p>Consider a monochromatic, sinusoidal traveling electromagnetic wave impinging upon a surface. The wave travels in the $z$ direction and strikes the surface perpendicular to it’s face. Assume it travels through a materials with a given wave speed $v_1$ and strikes a material with a given wave speed $v_2$. The incident wave is polarized in the $x$-direction (i.e., $E_I$ is in the $x$ direction).</p>
+
+<p>Find the relationship between the amplitudes of the incident, reflected, and transmitted electric and magnetic fields. How do these relate to what you know about waves on strings?</p>
+
+<p>To assist you, here’s the form to consider for the plane waves:</p>
+
+<h4 id="incident">Incident:</h4>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{E}}_I(z,t) = \tilde{E}_{0I}e^{i(k_1z-\omega t)}\hat{\mathbf{x}}</script>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{B}}_I(z,t) = \dfrac{1}{v_1}\tilde{E}_{0I}e^{i(k_1z-\omega t)}\hat{\mathbf{y}}</script>
+
+<h4 id="reflected">Reflected:</h4>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{E}}_R(z,t) = \tilde{E}_{0R}e^{i(-k_1z-\omega t)}\hat{\mathbf{x}}</script>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{B}}_R(z,t) = -\dfrac{1}{v_1}\tilde{E}_{0R}e^{i(-k_1z-\omega t)}\hat{\mathbf{y}}</script>
+
+<h4 id="transmitted">Transmitted:</h4>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{E}}_T(z,t) = \tilde{E}_{0T}e^{i(k_2z-\omega t)}\hat{\mathbf{x}}</script>
+
+<script type="math/tex; mode=display">\tilde{\mathbf{B}}_T(z,t) = \dfrac{1}{v_2}\tilde{E}_{0T}e^{i(k_2z-\omega t)}\hat{\mathbf{y}}</script>
 
   </div>
 

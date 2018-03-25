@@ -4,6 +4,11 @@ layout: page
 permalink: in-class/index.html
 ---
 
+### Week 11 (Reflection and Transmission)
+
+* [Normal Incidence](./11-normalincidence.html)
+* [Oblique Incidence](./11-obliqueincidence.html)
+
 ### Week 10 (Introduction to EM Waves)
 
 * [Vector waves](./10-vectorwaves.html)

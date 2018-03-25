@@ -15,8 +15,8 @@ use_math: true
 
 ### In-Class Activities
 
-* Coming soon
-
+* [Normal Incidence](./in-class/11-normalincidence.html)
+* [Oblique Incidence](./in-class/11-obliqueincidence.html)
 
 #### Notes and Homework
 
