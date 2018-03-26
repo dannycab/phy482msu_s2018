@@ -24,12 +24,12 @@ $$\tilde{\mathbf{B}}_I(z,t) = \dfrac{1}{v_1}\tilde{E}_{0I}e^{i(k_1z-\omega t)}\h
 
 #### Reflected:
 
-$$\tilde{\mathbf{E}}_R(z,t) = \tilde{E}_{0R}e^{i(-k_1z-\omega t)}\hat{\mathbf{x}}$$
+$$\tilde{\mathbf{E}}_R(z,t) = \tilde{E}_{0R}e^{i(k_Rz-\omega_R t)}\hat{\mathbf{n}}_R$$
 
-$$\tilde{\mathbf{B}}_R(z,t) = -\dfrac{1}{v_1}\tilde{E}_{0R}e^{i(-k_1z-\omega t)}\hat{\mathbf{y}}$$
+$$\tilde{\mathbf{B}}_R(z,t) = \hat{\mathbf{k}}_R \times \tilde{\mathbf{E}}_R(z,t)/v_1$$
 
 #### Transmitted:
 
-$$\tilde{\mathbf{E}}_T(z,t) = \tilde{E}_{0T}e^{i(k_2z-\omega t)}\hat{\mathbf{x}}$$
+$$\tilde{\mathbf{E}}_T(z,t) = \tilde{E}_{0T}e^{i(k_Tz-\omega_T t)}\hat{\mathbf{n}}_T$$
 
-$$\tilde{\mathbf{B}}_T(z,t) = \dfrac{1}{v_2}\tilde{E}_{0T}e^{i(k_2z-\omega t)}\hat{\mathbf{y}}$$
+$$\tilde{\mathbf{B}}_T(z,t) = \hat{\mathbf{k}}_T \times \tilde{\mathbf{E}}_T(z,t)/v_2$$
