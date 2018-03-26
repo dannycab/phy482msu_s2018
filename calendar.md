@@ -8,6 +8,11 @@ use_math: true
 ### Week 11 Reflection and Transmission
 
 
+#### Pre-class Videos
+
+* [Waves in Matter](https://www.youtube.com/watch?v=RdX_8bHKOQg)
+* [Reflection and Transmission at Material Boundaries](https://www.youtube.com/watch?v=8fFgqELTIMY)
+
 #### Reading
 
 * Read my notes
