@@ -5,12 +5,36 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 12 Electromagnetic Waves in Conductors
+
+#### Pre-class Videos
+
+* Coming soon...
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.4.1 through 9.4.3
+
+### In-Class Activities
+
+* Coming soon
+
+#### Notes and Homework
+
+* [Electromagnetic Waves in Conductors](./handwritten-notes/18-EM_Waves_in_Conductors.pdf)
+* [Dispersion](./handwritten-notes/19-Dispersion.pdf)
+* [Homework 10 (Due Fri. Apr. 6)](./assignments/homework10.html)
+
+---
+
+
 ### Week 11 Reflection and Transmission
 
 
 #### Pre-class Videos
 
-* [Waves in Matter](https://www.youtube.com/watch?v=RdX_8bHKOQg)
+* [EM Waves in Matter](https://www.youtube.com/watch?v=RdX_8bHKOQg)
 * [Reflection and Transmission at Material Boundaries](https://www.youtube.com/watch?v=8fFgqELTIMY)
 
 #### Reading
