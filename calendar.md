@@ -7,18 +7,10 @@ use_math: true
 
 ### Week 12 Electromagnetic Waves in Conductors
 
-#### Pre-class Videos
-
-* Coming soon...
-
 #### Reading
 
 * Read my notes
 * Read Griffith's Chapter 9.4.1 through 9.4.3
-
-### In-Class Activities
-
-* Coming soon
 
 #### Notes and Homework
 
