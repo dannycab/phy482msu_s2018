@@ -5,6 +5,23 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 13 Introduction to Special Relativity
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Ch 12.1.1 through 12.1.2
+
+#### Notes and Homework
+
+* [Introduction to Special Relativity](./handwritten-notes/20-Introduction_to_Special_Relativity.pdf)
+* [Particle Decay](./handwritten-notes/21-Particle_Decay.pdf)
+* [Lorentz Transformation](./handwritten-notes/22-Lorentz_Transformation.pdf)
+* [Homework 11 (Due Fri. Apr. 13)](./assignments/homework11.html)
+
+---
+
+
 ### Week 12 Electromagnetic Waves in Conductors
 
 #### Reading
