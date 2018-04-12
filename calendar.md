@@ -5,6 +5,22 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 14 Mathematical Foundations of Special Relativity
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Ch 12.1.3 through 12.2.2
+
+#### Notes and Homework
+
+* [Four vectors](./handwritten-notes/23-Four_vectors.pdf)
+* [Minkowski Diagrams](./handwritten-notes/24-Minkowski_Diagrams.pdf)
+* [Relativistic Energy and Momentum](./handwritten-notes/25-Relatvisitic_Energy_and_Momentum.pdf)
+* [Homework 12 (Due Fri. Apr. 20)](./assignments/homework12.html)
+
+---
+
 ### Week 13 Introduction to Special Relativity
 
 #### Reading

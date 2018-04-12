@@ -16,3 +16,4 @@ permalink: ./assignments/
 * Homework 9 (Due Mar. 30) [[HTML]](./homework9.html)
 * Homework 10 (Due Apr. 6) [[HTML]](./homework10.html)
 * Homework 11 (Due Apr. 13) [[HTML]](./homework11.html)
+* Homework 12 (Due Apr. 20) [[HTML]](./homework12.html)
