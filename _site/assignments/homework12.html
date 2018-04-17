@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Checking solutions to wave equation</title>
+  <title>Homework 12 (Due. Apr 20)</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy482msu_s2018/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/in-class/09-checkingsolutions.html">
+  <link rel="canonical" href="http://localhost:4000/phy482msu_s2018/assignments/homework12.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 482" href="http://localhost:4000/phy482msu_s2018/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -628,52 +628,78 @@
 </header>-->
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="container well">
+      <div class="container well">
 
-  <header class="post-header">
-    <h1 class="post-title">Checking solutions to wave equation</h1>
-  </header>
+        <h1 class="post-title">Homework 12 (Due. Apr 20)</h1>
+          <div >
+    <h2 id="1-star-wars-with-relativity">1. Star Wars with relativity</h2>
 
-  <div class="post-content">
-    <p>We have claimed that solutions to the 1D wave equation $\dfrac{\partial^2 f}{\partial z^2} = \dfrac{1}{v^2}\dfrac{\partial^2 f}{\partial t^2}$ must take the form $f(z,t) = g(z-vt) + h(z+vt)$. Show explicitly that solutions of this form solve the wave equation.</p>
+<p>Space Probe #1 passes very close to earth at a time that both we (on earth) and the onboard computer on Probe 1 decide to call t = 0 in our respective frames. The probe moves at a constant speed of 0.5$c$ away from earth. When the clock aboard Probe 1 reads t = 60sec, it sends a light signal straight back to earth.</p>
 
-<p>We will often be interested in travelling wave solutions to the wave equation, show explicitly that $f(z,t) = A \cos [kz-\omega t+\delta]$ solves the wave equation. Use the complex version of this solution to illustrate how $v$, $k$, and $\omega$ are related.</p>
+<ol>
+  <li>At what time was the signal sent, according to the earth’s rest frame?</li>
+  <li>At what time in the earth’s rest frame do we receive the signal?</li>
+  <li>At what time in Probe 1’s rest frame does the signal reach earth?</li>
+  <li>Space Probe #2 passes very close to earth at t = 1sec (earth time), chasing Probe 1. Probe 2 is only moving at 0.3c (as viewed by us). Probe 2 launches a proton beam (which moves at v = 0.21c relative to Probe 2) directed at Probe 1. Does this proton beam strike Probe 1? Please answer twice, once ignoring relativity theory, and then again using Einstein!</li>
+</ol>
 
-<p>Travelling wave solutions are really nice because we can write any periodic function f(z,t) as an infinite series sum of travelling wave solutions. Consider the following periodic function constructed from a series of functions,</p>
+<h2 id="2-muon-calculations">2. Muon calculations</h2>
 
-<p>$f(z,t) = \sum_n a_n \cos(k_nz-\omega_nt)$, or</p>
+<p>The mean lifetime of muons is 2 $\mu\text{s}$ in their rest frame. Muons are produced in the upper atmosphere, as cosmic-ray secondaries.</p>
 
-<p>$\tilde{f}(z,t) = \sum_n \tilde{A}_n e^{i (k_nz-\omega_nt)}$</p>
+<ol>
+  <li>Calculate the mean distance traveled by muons with speed $v = 0.99c$, assuming classical physics (i.e. without special relativity).</li>
+  <li>Under this assumption, what percentage of muons produced at an altitude of 10 km reach the ground, assuming they travel downward at $v = 0.99c$? Careful here, you will have to think about the distribution of lifetimes given that <a href="https://en.wikipedia.org/wiki/Particle_decay">particle decay is a Poisson process</a>.</li>
+  <li>Calculate the mean distance traveled by muons with speed $v = 0.99c$, taking into account special relativity.</li>
+  <li>Under this assumption, what percentage of muons produced at an altitude of 10 km reach the ground, assuming they travel downward at $v = 0.99c$?</li>
+</ol>
 
-<p>Show that this function satisfies the wave equation. Can you do this same proof using a continuous description of the function?</p>
+<h2 id="3-pi-mesons">3. $\pi$ Mesons</h2>
 
-<p>$f(z,t) = \int a(\omega) \cos(k(\omega)z-\omega t) d\omega$, or</p>
+<p>A group of $\pi$ mesons (pions) are observed to be traveling at $u’ = 0.8c$ in a physics laboratory. The mean lifetime (let’s call it $\lambda$ ) for unstable particles undergoing exponential decay is the average time for a group of particles to be reduced to $1/e$ of their original number. We can express this mathematically as: $N_t = N_0 exp(−\Delta t / \lambda)$. We see then that for $\Delta t = \lambda$ , $N_t = N_0 exp(−1) = (1 / e) ⋅ N_0$</p>
 
-<p>$\tilde{f}(z,t) = \int \tilde{A}(\omega) e^{i (k(\omega)z-\omega t)} d\omega$</p>
+<ol>
+  <li>What is the $\gamma$–factor for these pions?</li>
+  <li>If the pions’ proper mean lifetime is $\lambda$ = 2.6 × 10$^{−8}$ s, what is the lifetime ($\lambda’$) as observed in the laboratory frame?</li>
+  <li>If there were initially 32,000 pions, how many will be left after they have traveled 36 meters, from the source to a detector (as measured in the laboratory frame)?</li>
+  <li>Show that this number is the same, as calculated in the rest frame of the pions. Explain this calculation.</li>
+  <li>What would the answer to part 4 be if there were no time dilation (i.e., $\Delta \tau = \Delta t’$)?</li>
+  <li>How long does the distance of 36 meters in the laboratory frame appear to the pions in their rest frame?</li>
+  <li>Use the result from part 6 and the proper time elapsed (as calculated in the rest frame of the pions) to find the velocity of the laboratory frame, as calculated in the rest frame of the pions.</li>
+</ol>
 
-<p>where $a$, $b$, and $k$ are all functions of $\omega$….</p>
+<h2 id="4-dealing-with-simultaneity-and-observations">4. Dealing with simultaneity and observations</h2>
+
+<p>It is important to understand that the effects of special relativity are in no way due to the fact that light travels at a finite speed, but rather due to the fact that the speed of light is the same finite quantity in any inertial reference frame. We can always take into account the time it takes for light to travel some distance, and in fact, we must do so in order to ensure that all the local clocks at rest relative to each other in our frame of reference are properly synchronized. The goal of this problem is to understand the difference between what a single observer perceives (with her eyes), and what a system of local observations made with synchronized clocks will record. The main issue is that a single observer can only perceive information that has actually had time to reach her. This means the one observer is only going to see things as they arrive, usually delayed by the speed of light from where the events actually happened. Things that happened farther away, but at earlier times, will be arriving at the location of a single observer at the same time.
+Consider a rod of proper length $l_0$ , moving at speed $v$, relative to frame S. Careful measurements made by local observers in S will show that the rod has the contracted length: $l = l_0/\gamma$.</p>
+
+<p><img src="/phy482msu_s2018/assignments/images/hw12/two_observers.png" alt="two" /></p>
+
+<p>But now consider what is seen by a single Observer Q:</p>
+
+<p><img src="/phy482msu_s2018/assignments/images/hw12/one_observer.png" alt="one" /></p>
+
+<p>What Observer Q sees at any one instant is determined by the light entering her eyes at that instant. Now, consider the light reaching Observer Q at one instant from the front and back ends of the rod.</p>
+
+<ol>
+  <li>Explain in words why these two light rays must have left the two ends of the rod at different times.</li>
+  <li>Prove that Observer Q sees a rod that is longer than $l$. (In fact, at certain speeds, it is even seen to be longer than $l_0$, and the length contraction is actually perceived as an expansion.)</li>
+  <li>Prove that once it has passed her (the rod is now to the right of her), Observer Q will now see the rod to be shorter than $l$.</li>
+  <li>Explain how your analysis in parts 1-3 relates to synchronized clocks, simultaneity, and making an observation (in physics).</li>
+</ol>
+
+<h2 id="5-project-problem---choose-your-feedback">5. Project problem - Choose your feedback</h2>
+
+<p>You’ve been working on this project for a while now and this will be the last formal project problem. Think about what feedback you want from me regarding your project. What would be helpful? What do you need some direction or instructions on? Think about what would help you the most to make a successful poster in a couple of weeks. Write up a short document outlining what feedback you feel that you need and direct me to the document(s) to review.</p>
+
+<p>This kind of work models what your advisor (or boss) might do when you are presenting a project that you’ve been working on. You know the details of the project better than the advisor (or boss), but you might still want help thinking about the big picture or, perhaps, some specific details that you want to check.</p>
+
+<p><strong>As usual,  commit these changes to your repository.</strong></p>
 
   </div>
 
-</div>
 
       </div>
-    </div>
-
-    <footer class="footer">
-    <div class="container alert alert-info">
-        <div class="col-md-8">
-            <p>Website for Physics 482 - Electricity and Magnetism II at Michigan State University
-</p>
-        </div>
-        <div class="col-md-4">
-          Contact: <a href="mailto:caballero@pa.msu.edu">caballero@pa.msu.edu</a> <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
-
 
   </body>
 
