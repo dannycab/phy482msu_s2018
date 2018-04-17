@@ -5,6 +5,20 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 15 Special Relativity and E&M
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Ch 12.2.3 through 12.3.5
+
+#### Notes and Homework
+
+* Notes are coming
+* [Homework 13 (Due Fri. Apr. 27)](./assignments/homework13.html)
+
+---
+
 ### Week 14 Mathematical Foundations of Special Relativity
 
 #### Reading
