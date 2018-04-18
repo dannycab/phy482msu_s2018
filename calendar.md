@@ -14,7 +14,7 @@ use_math: true
 
 #### Notes and Homework
 
-* Notes are coming
+* [Relativistic E&M](./handwritten-notes/26-Relativistic_EM.pdf)
 * [Homework 13 (Due Fri. Apr. 27)](./assignments/homework13.html)
 
 ---
