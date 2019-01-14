@@ -57,3 +57,4 @@ permalink: in-class/index.html
 ### Week 1 (Reminders of 481)
 * [Lightning Strike at SLAC](./01-lightningstrike.html)
 * [Building a Magnetic Trap](./01-magnetictrap.html)
+* [Evaluating Power Line Risk](./01-power-line.html)
